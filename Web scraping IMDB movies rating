@@ -1,0 +1,30 @@
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+
+url = 'https://www.imdb.com/chart/top/'
+response = requests.get(url)
+soup = BeautifulSoup(response.text, "html.parser")
+
+movies = soup.select("li.ipc-metadata-list-summary-item")
+
+
+movie_data = []
+for movie in movies:
+    title = movie.select_one("h3.ipc-title__text").text.strip()
+    year = movie.select_one("span.cli-title-metadata-item").text.strip()
+    rating_tag = movie.select_one("span.ipc-rating-star--rating")
+    rating = rating_tag.text.strip() if rating_tag else "N/A"
+
+    movie_data.append({
+        "Title": title,
+        "Year": year,
+        "Rating": rating
+    })
+
+for movie in movie_data:
+    print(f"{movie['Title']} ({movie['Year']}) - Rating: {movie['Rating']}")
+
+df = pd.DataFrame(movie_data)
+df.to_csv("imdb_top_250_movies.csv", index=False)
+print("IMDb data saved successfully to imdb_top_1000_movies.csv!")
