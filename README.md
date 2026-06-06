@@ -4,3 +4,5 @@
 2) Stock Price Analysis:- https://colab.research.google.com/drive/1VJGNm2dBHSRr4xyaZZcDCw450XU4SmdN?usp=sharing
 
 3) Wine Dataset:- https://colab.research.google.com/drive/1MKYo2m-YbkLpwOYUcj6FundfmqrRDCNN?usp=sharing
+
+4) Amazon :- https://colab.research.google.com/drive/1hWgUS11atLRLJfHAqtAjOdweMI9P--Cf?usp=sharing
