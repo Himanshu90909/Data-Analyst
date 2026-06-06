@@ -6,3 +6,5 @@
 3) Wine Dataset:- https://colab.research.google.com/drive/1MKYo2m-YbkLpwOYUcj6FundfmqrRDCNN?usp=sharing
 
 4) Amazon :- https://colab.research.google.com/drive/1hWgUS11atLRLJfHAqtAjOdweMI9P--Cf?usp=sharing
+
+5) Netflix:- https://colab.research.google.com/drive/1YsuU1Jc6Npi9r5QBSViF6h2PD2dRS-U1?usp=sharing
