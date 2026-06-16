@@ -10,3 +10,5 @@
 5) Netflix:- https://colab.research.google.com/drive/1YsuU1Jc6Npi9r5QBSViF6h2PD2dRS-U1?usp=sharing
 
 6) Generating Word Cloud in Python:- https://colab.research.google.com/drive/19PANcfeeyRfY30MmT505ofYWqPADsmSs?usp=sharing
+
+7) Zomato_Data_Analytics_using_python := https://colab.research.google.com/drive/14iUs-D2TvVrqFHaB0tK-Ivr2uzdFSalW?usp=sharing
